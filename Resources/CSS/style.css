@@ -1,9 +1,17 @@
 * {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+body {
+  font-size: 22px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 /*Header*/
@@ -97,4 +105,58 @@ header nav span {
   height: 200px;
   padding-bottom: 10px;
 
+}
+
+/*Locations*/
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.loc-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+
+}
+
+#loc-title {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 0px;
+
+}
+
+/*Footer*/
+
+.footer {
+  text-align: center;
+  height: 200px;
+  margin: 20px auto;
+}
+
+#copyright {
+  padding: 20px 20px
 }
