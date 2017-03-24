@@ -43,3 +43,58 @@ header nav span {
 #logo {
   height: 50px;
 }
+
+/*Mission*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.feature {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../Images/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.feature-overlay {
+  text-align: center;
+  width: 100%;
+}
+
+/*Featured Teas*/
+
+.featured-teas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.img-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 15px;
+
+}
+
+.img-card img {
+  height: 200px;
+  padding-bottom: 10px;
+
+}
