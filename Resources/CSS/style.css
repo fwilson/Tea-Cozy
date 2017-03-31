@@ -48,7 +48,7 @@ header nav span {
 
 }
 
-#logo {
+div.logo img {
   height: 50px;
 }
 
@@ -113,9 +113,9 @@ header nav span {
   display: flex;
   flex-direction: column;
   background-image: url(../Images/img-locations-background.jpg);
-  height: 500px;
+  height: 600px;
   width: 1200px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 70px;
 }
@@ -146,6 +146,7 @@ header nav span {
   text-align: center;
   background-color: transparent;
   margin-bottom: 0px;
+  margin-top: 60px;
 
 }
 
@@ -154,7 +155,7 @@ header nav span {
 .footer {
   text-align: center;
   height: 200px;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 #copyright {
